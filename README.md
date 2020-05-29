@@ -25,13 +25,13 @@ make
 If you type the command without any options, usage will be shown.
 1.  **rnd** 
     rnd -beads \<integer\> -sig \<float\></br>
-    Essential flags</br>
-    ---------------------------</br>
-    -beads....\<number of beads in the polymer\>
-    -sig......\<size of one bead\               
+    |Essential flags|                                    |
+    |--------------|------------------------------------|
+    |-beads        |\<number of beads in the polymer\>  |
+    |-sig          |\<size of one bead\                 |
     
-    Optional flags</br>
-    ---------------------------</br>
+    
+    |Optional flags            |                                                   |
     |-------------------------|---------------------------------------------------|
     |-bond \<value\>          |Manual bond distance \[default = sigma\]           |
     |-c                       |Center polymer inside box (overrides -centre)      |
