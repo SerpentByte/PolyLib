@@ -22,4 +22,5 @@ make
 6.  echo "export PATH=$PATH:/home/user/programs/polylib/bin" >> ~/.bashrc
 </br>
 ### Usage
-*rnd*
+    1.  *rnd* </br>
+    
