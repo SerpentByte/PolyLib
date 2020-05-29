@@ -28,11 +28,11 @@ If you type the command without any options, usage will be shown.
     |Essential flags|                                    |
     |--------------|------------------------------------|
     |-beads        |\<number of beads in the polymer\>  |
-    |-sig          |\<size of one bead\>                |
-    
+    |-sig          |\<size of one bead\>                | 
     
     |Optional flags            |                                                   |
     |-------------------------|---------------------------------------------------|
+    |-o \<output\>            |Output file name \[default = out.gro\]              |
     |-bond \<value\>          |Manual bond distance \[default = sigma\]           |
     |-c                       |Center polymer inside box (overrides -centre)      |
     |-box \<a\> \<b\> \<c\>   |(a,b,c) are box side lengths \[default = (0,0,0)\] |
@@ -40,6 +40,7 @@ If you type the command without any options, usage will be shown.
     |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
     |-nt                      |<number of CPU threads to use> \[default 1\]       |
     |-v                       |Verbose. Print parameters.                         |
+    
     
  2. **box**
     box -beads \<integer\> -sig \<float\> -box \<float\> \<float\> \<float\></br>
@@ -51,6 +52,7 @@ If you type the command without any options, usage will be shown.
     
     |Optional flags            |                                                   |
     |-------------------------|---------------------------------------------------|
+    |-o \<output\>            |Output file name \[default = out.gro\]              |
     |-bond \<value\>          |Manual bond distance \[default = sigma\]           |
     |-c                       |Center polymer inside box (overrides -centre)      |
     |-box \<a\> \<b\> \<c\>   |(a,b,c) are box side lengths \[default = (0,0,0)\] |
@@ -58,6 +60,7 @@ If you type the command without any options, usage will be shown.
     |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
     |-nt                      |<number of CPU threads to use> \[default 1\]       |
     |-v                       |Verbose. Print parameters.                         |
+  
   
 3. **sph**
     sph -beads \<integer\> -sig \<float\> -r \<float\></br>
@@ -69,6 +72,7 @@ If you type the command without any options, usage will be shown.
     
     |Optional flags            |                                                   |
     |-------------------------|---------------------------------------------------|
+    |-o \<output\>            |Output file name \[default = out.gro\]              |
     |-bond \<value\>          |Manual bond distance \[default = sigma\]           |
     |-c                       |Center polymer inside box (overrides -centre)      |
     |-centre \<x\> \<y\> \<z\>|Define center \[default (0,0,0)\]                   |
@@ -76,7 +80,8 @@ If you type the command without any options, usage will be shown.
     |-nt                      |<number of CPU threads to use> \[default 1\]       |
     |-v                       |Verbose. Print parameters.                         |
     Box is set to (2r, 2r, 2r) by default.
-    
+   
+   
  4. **spcl**
     sph -beads \<integer\> -sig \<float\> -r \<float\> -l \<float\></br>
     |Essential flags|                                                |
@@ -88,6 +93,7 @@ If you type the command without any options, usage will be shown.
     
     |Optional flags            |                                                   |
     |-------------------------|---------------------------------------------------|
+    |-o \<output\>            |Output file name \[default = out.gro\]              |
     |-bond \<value\>          |Manual bond distance \[default = sigma\]           |
     |-c                       |Center polymer inside box (overrides -centre)      |
     |-centre \<x\> \<y\> \<z\>|Define center \[default (0,0,0)\]                   |
