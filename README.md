@@ -109,9 +109,9 @@ If you type the command without any options, usage will be shown.
     
  ### Uninstallation
  1. rm -rf <install location>/polylib
- 2. edit .bashrc and remove 'export PATH=$PATH:<install location>/polylib/bin'
+ 2. edit .bashrc and remove ```export PATH=$PATH:<install location>/polylib/bin```
  #### exmaple
     rm -rf /home/user/programs/polylib
     edit .bashrc in your home using any text editor and remove the following
-    'export PATH=$PATH:/home/user/programs/polylib/bin'
+    ```export PATH=$PATH:/home/user/programs/polylib/bin```
 
