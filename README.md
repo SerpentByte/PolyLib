@@ -22,6 +22,7 @@ make
 4.  cd /home/user/programs/Polylib
 5.  make
 6.  echo "export PATH=$PATH:/home/user/programs/Polylib/bin" >> ~/.bashrc
+7.  source ~/.bashrc
     
 ### Usage
 If you type the command without any options, usage will be shown.
