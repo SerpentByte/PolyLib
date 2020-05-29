@@ -13,7 +13,8 @@ make
 2.  mv Polylib <install location>
 3.  cd <install location>/Polylib
 4.  make
-5.  echo "export PATH=\$PATH:<install location>/Polylib/bin" >> ~/.bashrc
+5.  echo ```"export PATH=\$PATH:<install location>/Polylib/bin" >> ~/.bashrc```
+6.  source ~/.bashrc
 #### Example
 1.  pwd
     /home/user/Downloads
@@ -21,7 +22,7 @@ make
 3.  mv Polylib /home/user/programs
 4.  cd /home/user/programs/Polylib
 5.  make
-6.  echo "export PATH=$PATH:/home/user/programs/Polylib/bin" >> ~/.bashrc
+6.  echo ```"export PATH=\$PATH:/home/user/programs/Polylib/bin" >> ~/.bashrc```
 7.  source ~/.bashrc
     
 ### Usage
