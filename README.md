@@ -6,9 +6,9 @@ C++ 9.0 and above</br>
 make
 
 ### Installation
-1.  Download the tar file. Extract to install location.
-    tar -xf Polylib.tar
-    *OR*
+1.  Download the tar file. Extract to install location.</br>
+    tar -xf Polylib.tar</br>
+    *OR*</br>
     use git clone https://github.com/SerpentByte/PolyLib.git
 2.  mv Polylib <install location>
 3.  cd <install location>/Polylib
