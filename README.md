@@ -112,7 +112,7 @@ If you type the command without any options, usage will be shown.
  2. edit .bashrc and remove the line</br>
     ```export PATH=$PATH:<install location>/polylib/bin```
  #### example
- rm -rf /home/user/programs/polylib</br>
- edit .bashrc in your home using any text editor and remove the following</br>
+ 1. rm -rf /home/user/programs/polylib</br>
+ 2. edit .bashrc in your home using any text editor and remove the following line</br>
     ```export PATH=$PATH:/home/user/programs/polylib/bin```
 
