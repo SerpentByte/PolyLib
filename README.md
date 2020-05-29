@@ -27,16 +27,19 @@ If you type the command without any options, usage will be shown.
     rnd -beads \<integer\> -sig \<float\></br>
     Essential flags</br>
     ---------------------------</br>
-    -beads  \<number of beads in the polymer\></br>
-    -sig    \<size of one bead\></br>
+    |------|----------------------------------|
+    |-beads|\<number of beads in the polymer\>|
+    |-sig  |\<size of one bead\               |
+    |------|----------------------------------|
     Optional flags</br>
     ---------------------------</br>
-    -bond \<value\>        Manual bond distance \[default = sigma\]</br>
-    -c                   Center polymer inside box (overrides -centre)</br>
-    -box \<a\> \<b\> \<c\>     (a,b,c) are box side lengths \[default = (0,0,0)\]</br>
-    -centre \<x\> \<y\> \<z\>  Define center \[default (0,0,0)\]</br>
-    -avoid \<true/false\>  Self avoiding beads \[default true\]</br>
-    -nt                  <number of CPU threads to use> \[default 1\]</br>
-    -v                   Verbose. Print parameters.</br>
+    |-------------------------|---------------------------------------------------|
+    |-bond \<value\>          |Manual bond distance \[default = sigma\]           |
+    |-c                       |Center polymer inside box (overrides -centre)      |
+    |-box \<a\> \<b\> \<c\>   |(a,b,c) are box side lengths \[default = (0,0,0)\] |
+    |-centre \<x\> \<y\> \<z\>|Define center \[default (0,0,0)\]                   |
+    |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
+    |-nt                      |<number of CPU threads to use> \[default 1\]       |
+    |-v                       |Verbose. Print parameters.                         |
 
     
