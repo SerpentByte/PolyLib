@@ -2,7 +2,7 @@
 Polymer generating libraries and a few other functions.
 ## Documentation
 ### Dependencies
-C++ 9.0 and above
+C++ 9.0 and above</br>
 make
 
 ### Installation
@@ -79,6 +79,7 @@ If you type the command without any options, usage will be shown.
     |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
     |-nt                      |<number of CPU threads to use> \[default 1\]       |
     |-v                       |Verbose. Print parameters.                         |
+    
     Box is set to (2r, 2r, 2r) by default.
    
    
@@ -100,5 +101,17 @@ If you type the command without any options, usage will be shown.
     |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
     |-nt                      |<number of CPU threads to use> \[default 1\]       |
     |-v                       |Verbose. Print parameters.                         |
+    
     Box is set to (2r, 2r, l) by default.
+    
+ 5. **re** 
+    re -f <gro filename>
+    
+ ### Uninstallation
+ 1. rm -rf <install location>/polylib
+ 2. edit .bashrc and remove 'export PATH=$PATH:<install location>/polylib/bin'
+ #### exmaple
+    rm -rf /home/user/programs/polylib
+    edit .bashrc in your home using any text editor and remove the following
+    'export PATH=$PATH:/home/user/programs/polylib/bin'
 
