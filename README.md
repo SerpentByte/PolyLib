@@ -24,7 +24,7 @@ make
 ### Usage
 If you type the command without any options, usage will be shown.
 1.  **rnd** 
-    rnd -beads <integer> -sig <float></br>
+    rnd -beads \[integer\] -sig \<float\></br>
     Essential flags</br>
     ---------------------------</br>
     -beads  <number of beads in the polymer></br>
