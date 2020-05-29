@@ -108,11 +108,11 @@ If you type the command without any options, usage will be shown.
     re -f <gro filename>
     
  ### Uninstallation
- 1. rm -rf <install location>/polylib
- 2. edit .bashrc and remove the line
+ 1. rm -rf <install location>/polylib</br>
+ 2. edit .bashrc and remove the line</br>
     ```export PATH=$PATH:<install location>/polylib/bin```
  #### example
- rm -rf /home/user/programs/polylib
- edit .bashrc in your home using any text editor and remove the following
+ rm -rf /home/user/programs/polylib</br>
+ edit .bashrc in your home using any text editor and remove the following</br>
     ```export PATH=$PATH:/home/user/programs/polylib/bin```
 
