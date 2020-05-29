@@ -42,7 +42,7 @@ If you type the command without any options, usage will be shown.
     |-v                       |Verbose. Print parameters.                         |
     
  2. **box**
-    box -beads \<integer\> -sig \<float\> -box \<a\> \<b\> \<c\></br>
+    box -beads \<integer\> -sig \<float\> -box \<float\> \<float\> \<float\></br>
     |Essential flags|                                                |
     |--------------|------------------------------------------------|
     |-beads        |\<number of beads in the polymer\>              |
@@ -60,7 +60,7 @@ If you type the command without any options, usage will be shown.
     |-v                       |Verbose. Print parameters.                         |
   
 3. **sph**
-    sph -beads \<integer\> -sig \<float\> -r \<radius\></br>
+    sph -beads \<integer\> -sig \<float\> -r \<float\></br>
     |Essential flags|                                                |
     |--------------|------------------------------------------------|
     |-beads        |\<number of beads in the polymer\>              |
@@ -78,7 +78,7 @@ If you type the command without any options, usage will be shown.
     Box is set to (2r, 2r, 2r) by default.
     
  4. **spcl**
-    sph -beads \<integer\> -sig \<float\> -r \<radius\> -l \<length\></br>
+    sph -beads \<integer\> -sig \<float\> -r \<float\> -l \<float\></br>
     |Essential flags|                                                |
     |--------------|------------------------------------------------|
     |-beads        |\<number of beads in the polymer\>              |
