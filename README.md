@@ -42,7 +42,7 @@ If you type the command without any options, usage will be shown.
     |-v                       |Verbose. Print parameters.                         |
     
  2. **box**
-    rnd -beads \<integer\> -sig \<float\></br>
+    box -beads \<integer\> -sig \<float\> -box \<a\> \<b\> \<c\></br>
     |Essential flags|                                                |
     |--------------|------------------------------------------------|
     |-beads        |\<number of beads in the polymer\>              |
@@ -58,4 +58,41 @@ If you type the command without any options, usage will be shown.
     |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
     |-nt                      |<number of CPU threads to use> \[default 1\]       |
     |-v                       |Verbose. Print parameters.                         |
+  
+3. **sph**
+    sph -beads \<integer\> -sig \<float\> -r \<radius\></br>
+    |Essential flags|                                                |
+    |--------------|------------------------------------------------|
+    |-beads        |\<number of beads in the polymer\>              |
+    |-sig          |\<size of one bead\>                            |
+    |-r            |\<r\> (radius of the sphere)                    |
     
+    |Optional flags            |                                                   |
+    |-------------------------|---------------------------------------------------|
+    |-bond \<value\>          |Manual bond distance \[default = sigma\]           |
+    |-c                       |Center polymer inside box (overrides -centre)      |
+    |-centre \<x\> \<y\> \<z\>|Define center \[default (0,0,0)\]                   |
+    |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
+    |-nt                      |<number of CPU threads to use> \[default 1\]       |
+    |-v                       |Verbose. Print parameters.                         |
+    Box is set to (2r, 2r, 2r) by default.
+    
+ 4. **spcl**
+    sph -beads \<integer\> -sig \<float\> -r \<radius\> -l \<length\></br>
+    |Essential flags|                                                |
+    |--------------|------------------------------------------------|
+    |-beads        |\<number of beads in the polymer\>              |
+    |-sig          |\<size of one bead\>                            |
+    |-r            |\<r\> (radius of the sphere)                    |
+    |-l            |\<length of cylinder including end-caps\>       |       
+    
+    |Optional flags            |                                                   |
+    |-------------------------|---------------------------------------------------|
+    |-bond \<value\>          |Manual bond distance \[default = sigma\]           |
+    |-c                       |Center polymer inside box (overrides -centre)      |
+    |-centre \<x\> \<y\> \<z\>|Define center \[default (0,0,0)\]                   |
+    |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
+    |-nt                      |<number of CPU threads to use> \[default 1\]       |
+    |-v                       |Verbose. Print parameters.                         |
+    Box is set to (2r, 2r, l) by default.
+
