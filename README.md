@@ -31,6 +31,7 @@ If you type the command without any options, usage will be shown.
     |-beads|\<number of beads in the polymer\>|
     |-sig  |\<size of one bead\               |
     |------|----------------------------------|
+    
     Optional flags</br>
     ---------------------------</br>
     |-------------------------|---------------------------------------------------|
@@ -41,5 +42,5 @@ If you type the command without any options, usage will be shown.
     |-avoid \<true/false\>    |Self avoiding beads \[default true\]               |
     |-nt                      |<number of CPU threads to use> \[default 1\]       |
     |-v                       |Verbose. Print parameters.                         |
-
+    |-------------------------|---------------------------------------------------|
     
