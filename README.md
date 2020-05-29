@@ -27,10 +27,10 @@ If you type the command without any options, usage will be shown.
     rnd -beads \<integer\> -sig \<float\></br>
     Essential flags</br>
     ---------------------------</br>
-    |------|----------------------------------|
+    |      |                                  |
     |-beads|\<number of beads in the polymer\>|
     |-sig  |\<size of one bead\               |
-    |------|----------------------------------|
+    |      |                                  |
     
     Optional flags</br>
     ---------------------------</br>
