@@ -9,7 +9,7 @@ make
 1.  Download the tar file. Extract to install location.</br>
     tar -xf Polylib.tar</br>
     *OR*</br>
-    use git clone https://github.com/SerpentByte/PolyLib.git
+    git clone https://github.com/SerpentByte/PolyLib.git
 2.  mv Polylib <install location>
 3.  cd <install location>/Polylib
 4.  make
